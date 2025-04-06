@@ -1,0 +1,27 @@
+{
+  "name": "server-connector",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Server monitoring connector for Discord bot notifications",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "os-utils": "^0.0.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/os-utils": "^0.0.4"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Main Server",
+    "url": "http://localhost:24444",
+    "status": "offline",
+    "lastChecked": "2025-04-06T01:57:16.410Z",
+    "error": "",
+    "data": null
+  },
+  {
+    "name": "ASZN Node 4",
+    "url": "http://zakuraonline.ddns.net:4120/status",
+    "status": "offline",
+    "lastChecked": "2025-04-06T01:57:18.485Z",
+    "error": "connect ECONNREFUSED 1.4.148.110:4120",
+    "data": null
+  }
+]
